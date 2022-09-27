@@ -10,27 +10,57 @@
 </head>
 
 <style>
+
+    body {
+        background-color: #696969;
+        font-family: Verdana;
+    }
     #forum {
+        background-color: #696969;
+    }
+    form {
         text-align: center;
         font-size: 18px;
         font-family: Verdana;
+        background-color: #cfcfcf;
+        padding: 10px;
+    }
+
+    #contact {
+        float: center;
+        background-color: #cfcfcf;
+        padding: 10px;
+    }
+
+
+    .rqd {
+        color: red;
+        font-weight: normal;
     }
 
     #submit {
         background-color: #b52d2d;
-        height: 100px;
+        height: 75px;
+        font-size: 26px;
+        font-weight: 15px;
+        width:150px;
+        align: center;
     }
 
     input { width: 250px; }
     textarea {width: 250px;}
+    textarea, input {
+        max-width: 250px;
+    }
+
 </style>
 
 <body>
     
-    <h1> Contact Me </h1>
+    <h1 id="contact"> <center> Contact Me </center> </h1>
 
     <div id="forum">
-        <form action="#" method="post">
+        <form action="#" method="post" style="text-align:center;" onsubmit="alert('Not Implemented Yet');">
             <label for="myname">Name: </label><br/>
             <input type="text" name="myname" id="myname" placeholder="Ex: James" required/>
             <br/><br/>
@@ -40,10 +70,27 @@
             <textarea name="tbody" id="tbody" required>Enter Message...
             </textarea>
             <br/><br/>
+
+            <label for="priority">Priority: </label> <br/>
+            <select name="priority">
+                <option disabled select value>--Select an Option--</option>
+                <option value="low">Low</option>
+                <option value="medium">Medium</option>
+                <option value="high">High</option>
+                <option value="crit">Critical</option>
+            </select>
+            <br/><br/>
+
+            <input type="radio" name="flwup" id="flyup" value="yes"/>Yes
+            <br/>
+            <input type="radio" name="flwup" id="flyup" value="no"/>No
+            <br/><br/>
             <label for="attach">Attachments: </label>
             <br/>
             <input type="file" name="attach" id="attach" /> <br/><br/>
             <input type="submit" value="Submit" id="submit"/>
+
+
         </form>
     </div>
 

@@ -17,6 +17,7 @@
     }
     #forum {
         background-color: #696969;
+        border-radius: 5px;
     }
     form {
         text-align: center;
@@ -24,12 +25,15 @@
         font-family: Verdana;
         background-color: #cfcfcf;
         padding: 10px;
+        border-radius: 5px;
+        max-width: 800px;
     }
 
     #contact {
         float: center;
         background-color: #cfcfcf;
         padding: 10px;
+        max-width: 400px;
     }
 
 
@@ -47,8 +51,17 @@
         align: center;
     }
 
+    #attach {
+        background-color: white !important;
+        border: 1px solid #777; 
+        border-radius: 2px;
+    }
+
+    #flwupy { margin-left: -125px; }
+    #flwupy, #flwupn { margin-right: -100px; }
+
     input { width: 250px; }
-    textarea {width: 250px;}
+    textarea {width: 250px; min-width: 250px; min-height: 75px;}
     textarea, input {
         max-width: 250px;
     }
@@ -71,6 +84,11 @@
             </textarea>
             <br/><br/>
 
+            <label for="attach">Attachments: </label>
+            <br/>
+            <input type="file" name="attach" id="attach" /> <br/><br/>
+            
+
             <label for="priority">Priority: </label> <br/>
             <select name="priority">
                 <option disabled select value>--Select an Option--</option>
@@ -81,15 +99,16 @@
             </select>
             <br/><br/>
 
-            <input type="radio" name="flwup" id="flyup" value="yes"/>Yes
-            <br/>
-            <input type="radio" name="flwup" id="flyup" value="no"/>No
+            <label for="radio">Do you want a Follow-Up?</label> <br/> 
+            <input type="radio" name="flwup" id="flyupu" value="yes"/>
+            <label for="flyupu" class="flwlbl">Yes</label>
+            <input type="radio" name="flwup" id="flyupn" value="no"/>
+            <label for="flyupn" class="flwlbl">No</label>
+            
             <br/><br/>
-            <label for="attach">Attachments: </label>
-            <br/>
-            <input type="file" name="attach" id="attach" /> <br/><br/>
+            
             <input type="submit" value="Submit" id="submit"/>
-
+            <br/><br/>
 
         </form>
     </div>

@@ -1,0 +1,10 @@
+h1, h2, h3, h4, h5, h6 {
+   color: #A4A400; 
+   background-color: #F0F0F0;
+   text-decoration: underline;
+   font-family: Lucida Sans Unicode;
+}
+
+#title {
+    font-size: 22px;
+}

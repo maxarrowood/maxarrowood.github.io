@@ -1,3 +1,4 @@
+
 h1, h2, h3, h4, h5, h6 {
    color: #A4A400; 
    background-color: #F0F0F0;
@@ -7,4 +8,18 @@ h1, h2, h3, h4, h5, h6 {
 
 #title {
     font-size: 22px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+#comms {
+    font-style: italic;
+    text-indent: 20px;
+    background-color: #FFFFA8;
+}
+
+p, ol, ul, {
+    font-size: 11px;
 }

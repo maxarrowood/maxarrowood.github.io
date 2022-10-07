@@ -10,11 +10,12 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 22px;
 }
 
-h4 {
-    font-size: 18px;
-}
-
 #comm {
     font-style: italic;
     margin-left: 20px;
 }
+
+h4 {
+    font-size: 18px;
+}
+

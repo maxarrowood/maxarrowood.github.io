@@ -19,5 +19,5 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    transform: scaleX(-1);
+    transform: rotateY(180deg);
 }

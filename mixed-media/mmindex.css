@@ -1,12 +1,23 @@
 table, td, th {
-    border: 2px solid black;
-    background-color: #F06C6F;
+    border: 5px solid black;
+    background-color: #a366ff;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 4px;
 }
 
 th {
-    background-color: #703234;
+    background-color: #383B75;
+    color: white;
+}
+
+hr {
+    color
+}
+
+caption {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: larger;
 }
 
 img {
@@ -28,6 +39,23 @@ body {
 }
 
 #imgsrc, #vidsrc, #audsrc {
-    margin-left:10%; 
-    margin-right:10%;
+    margin-left:5%; 
+    margin-right:5%;
+}
+
+h2 {
+    text-align: left;
+}
+
+/* Gradient Backdrop */
+body {
+background: hsla(237, 77%, 86%, 1);
+
+background: linear-gradient(90deg, hsla(237, 77%, 86%, 1) 0%, hsla(237, 86%, 71%, 1) 90%, hsla(237, 45%, 56%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(237, 77%, 86%, 1) 0%, hsla(237, 86%, 71%, 1) 90%, hsla(237, 45%, 56%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(237, 77%, 86%, 1) 0%, hsla(237, 86%, 71%, 1) 90%, hsla(237, 45%, 56%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#C0C3F7", endColorstr="#767CF5", GradientType=1 );
 }

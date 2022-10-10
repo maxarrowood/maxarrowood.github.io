@@ -1,8 +1,12 @@
 table, td, th {
     border: 2px solid black;
-    background-color: #ffffff;
+    background-color: #F06C6F;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 4px;
+}
+
+th {
+    background-color: #703234;
 }
 
 img {

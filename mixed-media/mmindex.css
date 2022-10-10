@@ -4,3 +4,8 @@ table, td, th {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 4px;
 }
+
+img {
+    width: 250px;
+    height: 150px;
+}

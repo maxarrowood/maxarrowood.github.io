@@ -15,7 +15,7 @@ img {
 }
 
 body {
-    background-image: url(images/back.jpg), rotateY(180deg);;
+    background-image: url(images/back.jpg) rotateY(180deg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;

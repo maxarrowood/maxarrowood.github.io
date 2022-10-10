@@ -10,8 +10,13 @@ th {
 }
 
 img {
-    max-width: 250px;
-    max-height: 150px;
+    max-width: 300px;
+    max-height: 200px;
+}
+
+video {
+    max-width: 300px;
+    max-height: 200px;
 }
 
 body {
@@ -20,4 +25,9 @@ body {
     background-attachment: fixed;
     background-size: cover;
     font-family: Verdana;
+}
+
+#imgsrc, #vidsrc, #audsrc {
+    margin-left:10%; 
+    margin-right:10%;
 }

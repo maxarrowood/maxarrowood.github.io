@@ -1,0 +1,30 @@
+/* Max Arrowood */
+
+body {
+    color: black;
+    font-family: sans-serif;
+    background-color: #f90;
+}
+
+#wrapper {
+    margin: auto;
+    width: 80%;
+}
+
+.floatleft {
+    float: left;
+    margin-right: 2%;
+}
+
+.floatright {
+    float: right;
+    margin-left: 2%;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+.boldtext, dt {
+    font-weight: bold;
+}

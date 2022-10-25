@@ -3,8 +3,9 @@
     Current Date-->
 <html lang="en">
 <head>
-	<title></title>
+	<title>CSS Block Styles</title>
 	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/04.css">
 </head>
 <body>
 	<nav>
@@ -28,10 +29,10 @@
 		<img src="man.jpg" alt="professional man" height="282" width="198">
 		<p>Paragraph content is block content which starts on its own line, its own block.</p>
 		<p>Example 3: one image - float left.</p>
-		<img src="man.jpg" alt="professional man" height="282" width="198">
+		<img src="man.jpg" alt="professional man" height="282" width="198" class="floatleft">
 		<p>Block content that follows a left float.</p>
-		<p>Example 4: one image - float right.</p>
-		<img src="man.jpg" alt="professional man" height="282" width="198">
+		<p class="clearfloat">Example 4: one image - float right.</p>
+		<img src="man.jpg" alt="professional man" height="282" width="198" class="floatright">
 		<p>Block content that follows a right float.</p>
 	<h2>float: left; and clear: both;</h2>
 		<p>The float property allows content that follows the floated content to occupy the available horizontal space not used by the floated content.  Float is commonly applied to images given they have a distinct width which leaves extra horizontal white space beside the image when the next block of content is rendered on the page.  Float can also be applied to sections of content to create multiple columns on a page.  Content is floated left or right with the float: left; or float: right; declarations.  </p>

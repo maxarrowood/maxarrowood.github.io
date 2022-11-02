@@ -1,0 +1,28 @@
+
+* {
+    font-family: "Freight Sans Bold", "Lucida Grande", Tahoma, Verdana, Arial, sans-serif;
+}
+
+body {
+    background-color:  #edf0f5;
+}
+
+h1 {
+    margin-bottom: -13px;
+}
+
+h4 {
+    font-size: small;
+}
+
+#email, #email2, #password {
+    width: 264px;
+    padding: 5px;
+    margin: 5px;
+}
+
+#fname, #lname {
+    width: 117px;
+    padding: 5px;
+    margin: 5px;
+}

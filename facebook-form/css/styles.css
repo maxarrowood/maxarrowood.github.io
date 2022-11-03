@@ -29,8 +29,12 @@ h4 {
     border-color: grey;
 }
 
-#button {
+#signup {
     background-color: #659d50;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 10px;
+    width:75px;
 }
 
 #whybday {

@@ -21,6 +21,7 @@ h4 {
     margin: 5px;
     border-color: grey;
     border: 1px;
+    font-size: medium;
 }
 
 #fname, #lname {
@@ -29,6 +30,7 @@ h4 {
     margin: 5px;
     border-color: grey;
     border: 1px;
+    font-size: medium;
 }
 
 #signup {

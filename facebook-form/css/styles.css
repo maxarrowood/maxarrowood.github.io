@@ -26,7 +26,7 @@ h4 {
 }
 
 #fname, #lname {
-    width: 118px;
+    width: 120px;
     padding: 5px;
     margin: 5px;
     border-color: grey;
@@ -54,6 +54,7 @@ h4 {
     color: white;
     border-radius: 5px;
     border-color: #edf0f5;
+    margin-left: 15px;
 }
 
 #whybday {

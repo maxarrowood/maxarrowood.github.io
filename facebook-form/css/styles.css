@@ -33,6 +33,12 @@ h4 {
     background-color: #659d50;
 }
 
+#whybday {
+    width: 100px;
+    font-size: x-small;
+}
+
 #disclaimer {
     width: 225px;
+    font-size: small;
 }

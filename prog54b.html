@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <label for="n1">Number 1: </label>
+    <input type="number" id="n1" name="n1">
+
+    <label for="n2">Number 2: </label>
+    <input type="number" id="n2" name="n2">
+
+    <label for="n3">Number 3: </label>
+    <input type="number" id="n3" name="n3">
+
+    <label for="n4">Number 4: </label>
+    <input type="number" id="n4" name="n4">
+
+    <button onclick="
+        var n1 = document.getElementById('n1').value;
+        n1 = Number(n1);
+        var n2 = document.getElementById('n2').value;
+        n2 = Number(n2);
+        var n3 = document.getElementById('n3').value;
+        n3 = Number(n3);
+        var n4 = document.getElementById('n4').value;
+        n4 = Number(n4);
+        var tot = n1 + n2 + n3 + n4 ;
+        var avg = tot / 4 ;
+        alert('Sum: ' + tot + ' Average: ' + avg);
+    ">Calculate Sum and Average</button>
+
+</body>
+</html>

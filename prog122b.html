@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prog 122b</title>
+</head>
+<body>
+    
+    <h1>Wage by Hour</h1>
+    <br> <br>
+    <p id="out"></p>
+
+    <script>
+        var msg = "Hours    Pay: <br><br>";
+        var lcv = 1;
+        while (lcv <= 40) {
+            msg += lcv + "           " + (lcv * 4) +"<br/>";
+            lcv++;
+        }
+        document.getElementById("out").innerHTML = msg;
+    </script>
+
+</body>
+</html>

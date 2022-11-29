@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prog 93A</title>
+</head>
+<body>
+    
+    <center>
+    <label for="num">Enter KWH used: </label>
+    <input type="number" id="num" name="num">
+    <button onclick="doMath();">Calculate</button>
+
+    
+    <p><b>C O M P S C I  Electric</b></p>
+    <p>------------------------------</p>
+    <p id="one"></p>
+    <p>------------------------------</p>
+    <p id="base"></p>
+    <p id="sur"></p>
+    <p id="ct"></p>
+    <p id="pay"></p>
+    <p id="late"></p> 
+    <br/><br/>
+    <button onclick="clear();">Clear</button>
+    </center>
+
+    <script>
+        function doMath() {
+            var kwh = document.getElementById("num").value;
+            kwh = Number(kwh);
+
+            br = kwh * 0.0475 ;
+            sure = kwh * 0.1;
+            ctax = kwh * 0.03;
+            pay = ctax + sure + br;
+            late = pay * 0.04;
+            
+            
+        }
+
+        function clear() {
+
+        }
+    </script>
+
+</body>
+</html>

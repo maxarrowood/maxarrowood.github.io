@@ -10,5 +10,7 @@ function calc() {
 
     b = p * (1 + (r/12))**(12*t) - m * ((Math.abs(1 + (r/12))**(12*t)) / (r / n))
 
-    
+    var p = document.getElementById("out");
+    var out = ""
+
 }

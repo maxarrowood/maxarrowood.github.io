@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mortgage Calculator</title>
+    <title>Mortgage Balance Calculator</title>
     <link rel="stylesheet" href="styles.css">
     <source src="morcalc.js" defer>
 </head>
 <body>
     
     <div id="head">
-        <h1><u>Mortgage Calculator</u></h1>
+        <h1><u>Mortgage Balance Calculator</u></h1>
         <p id="catch"><i>Do your calculations all in one place!</i></p>
         <br/><br/>
     </div>
@@ -32,11 +32,13 @@
     </div>
 
     <div id="but">
-        <button onclick="calc()">Calculate</button>
+        <button onclick="calc();"> Calculate </button>
+        <button onclick="rst();"> Reset </button>
     </div>
 
     <div id="outputs">
-
+        <h4>Balance: </h4>
+        <p id="out"></p>
     </div>
 
 </body>

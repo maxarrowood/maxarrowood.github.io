@@ -25,3 +25,4 @@ function doMath() {
     out = out + "Square Root of N2: " + sqn2 + "<br/>";
     p.innerHTML = out 
  }
+

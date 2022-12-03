@@ -12,6 +12,10 @@ body {
     margin-bottom: 10px;
 }
 
+button {
+    background-color: #659d50;
+}
+
 #inputs {
     background-color: #dbdbdb;
     max-width: 500px;

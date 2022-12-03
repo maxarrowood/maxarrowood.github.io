@@ -9,14 +9,14 @@ body {
 
 
 #inputs {
-    background-color: blanchedalmond;
-    max-width: 750px;
+    background-color: #dbdbdb;
+    max-width: 500px;
     margin-bottom: -15px;
 }
 
 #heads {
     background-color: #dbdbdb;
-    max-width: 1000px;
+    max-width: 750px;
     margin: 50px;
     border-radius: 10px;
 }

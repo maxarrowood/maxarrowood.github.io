@@ -1,3 +1,7 @@
-#outputs {
-    display: inline;
+body {
+    background-color: blanchedalmond;
+}
+
+div {
+    background-color: #dbdbdb;
 }

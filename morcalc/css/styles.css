@@ -13,6 +13,10 @@
     margin: 50px;
 }
 
+#pint {
+    margin-top: 15px;
+}
+
 input, label {
     padding: 2px;
     margin: 15px;

@@ -9,6 +9,9 @@ body {
 
 #but {
     margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 25%;
+    font-size: large;
 }
 
 #inputs {

@@ -9,7 +9,7 @@ body {
 
 div {
     background-color: #dbdbdb;
-    max-width: fit-content;
+    max-width: 250px;
     margin: 50px;
 }
 

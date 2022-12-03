@@ -9,6 +9,8 @@ body {
 
 div {
     background-color: #dbdbdb;
+    max-width: fit-content;
+    margin: 50px;
 }
 
 input, label {

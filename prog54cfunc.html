@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prog 54c with Functions</title>
+</head>
+<body>
+    
+    <label for="rad">Radius: </label>
+    <input type="number" id="rad" name="rad">
+
+    <p id="out" style="background-color: red; padding: 15px; border-radius: 5px;"></p>
+
+    <button onclick="calc();">Calculate</button>
+    <button onclick="rst();">Reset</button>
+
+    <script>
+        var pi = 3.14159;
+
+        function getArea(radius) {
+            return pi * radius**2;
+        }
+
+        function getCircum(radius) {
+            return 2 * pi * radius;
+        }
+
+        function calc() {
+            var rad = document.getElementById("rad").value;
+            rad = Number(rad);
+            var area = getArea(rad);
+            var circum = getCircum(rad);
+            document.getElementById("out").innerHTML = 
+                "Area: " + area + "<br/>Circumference: " + circum;
+        }
+
+        function rst() {
+            document.getElementById("rad").value = "";
+            document.getElementById("out").innerHTML = "";
+        }
+    </script>
+
+</body>
+</html>

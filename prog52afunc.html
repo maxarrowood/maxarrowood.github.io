@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prog 52a with Functions</title>
+</head>
+<body>
+
+    <label for="len">Length: </label>
+    <input type="number" id="len" name="len" placeholder="0" required>
+
+    <label for="wid">Width: </label>
+    <input type="number" id="wid" name="wid" placeholder="0" required>
+
+    <button onclick="calc();">Calculate</button>
+    <button onclick="rst()">Clear</button>
+
+    <p id="out" style="background-color: aqua; padding: 15px;"></p>
+
+    <script>
+        function getArea(length, width) {
+            return length * width;
+        }
+
+        function getPerim(length, width) {
+            return length * 2 + width * 2;
+        }
+
+        function calc() {
+            var len = document.getElementById("len").value;
+            len = Number(len);
+            var wid = document.getElementById("wid").value;
+            wid = Number(wid);
+            var area = getArea(len, wid);
+            var perim = getPerim(len, wid);
+            document.getElementById("out").innerHTML =
+                "Area: " + area + "<br/>Perim: " + perim;
+        }
+
+        function rst() {
+            document.getElementById("len").value = "";
+            document.getElementById("wid").value = "";
+            document.getElementById("out").innerHTML = "";
+            
+        }
+    </script>
+    
+</body>
+</html>

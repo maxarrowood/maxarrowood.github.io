@@ -1,10 +1,9 @@
-#top {
-	background-image: url("capstone/img/grade.jpg") ;
+* {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 nav {
 	padding: 0.5%;
-    background-color: gainsboro;
 }
 
 nav li{
@@ -12,23 +11,32 @@ nav li{
 }
 
 nav li a {
-	color: #4E9657;
+	color: rgb(122,39,185);
     margin-left: -10px;
-	padding-left: 5%;
-	padding-right: 5%;
+	padding-left: 30px;
+	padding-right: 30px;
 	text-decoration: none;
-	background-color: lightgrey;
-	padding-top: 1.5%;
-	padding-bottom: 1.5%;
+	background-color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 12px;
 }
 
 h1 {
 	margin-left: 50px;
-	margin-top: 100px;
+	margin-top: 125px;
+	margin-bottom: -7px;
+	color: white;
 }
 
 #cap {
 	margin-left: 50px;
-	margin-bottom: 100px;
+	margin-bottom: 125px;
+	color: white;
 }
 
+#backimg {
+	background: rgb(122,39,185);
+	background: linear-gradient(90deg, rgba(122,39,185,1) 0%, rgba(99,9,121,1) 29%, rgba(0,78,255,1) 100%);
+	margin-top: -75px;
+}

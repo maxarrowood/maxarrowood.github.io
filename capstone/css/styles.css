@@ -2,6 +2,10 @@
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+html {
+	background-color: black;
+}
+
 nav {
 	padding: 0.5%;
 }
@@ -11,32 +15,37 @@ nav li{
 }
 
 nav li a {
-	color: rgb(122,39,185);
-    margin-left: -10px;
+	color: white;
+    margin-left: -5px;
 	padding-left: 30px;
 	padding-right: 30px;
 	text-decoration: none;
-	background-color: white;
+	background-color: rgba(0,0,0,.60);
 	padding-top: 10px;
 	padding-bottom: 10px;
 	font-size: 12px;
 }
 
 h1 {
-	margin-left: 50px;
+	margin-left: 20%;
 	margin-top: 125px;
 	margin-bottom: -7px;
 	color: white;
 }
 
 #cap {
-	margin-left: 50px;
+	margin-left: 20%;
 	margin-bottom: 125px;
 	color: white;
 }
 
+#topspace, #botspace{
+	visibility: hidden;
+}
+
 #backimg {
-	background: rgb(122,39,185);
-	background: linear-gradient(90deg, rgba(122,39,185,1) 0%, rgba(99,9,121,1) 29%, rgba(0,78,255,1) 100%);
+	background: rgba(122,39,185,.75);
+	background: linear-gradient(90deg, rgba(122,39,185,.60) 0%, rgba(99,9,121,.60) 29%, rgba(0,78,255,.60) 100%);
 	margin-top: -75px;
+	background-color: black !important;
 }

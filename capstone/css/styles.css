@@ -1,5 +1,6 @@
 * {
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	
 }
 
 html {
@@ -62,7 +63,8 @@ a:active {
 #about h1 {
 	margin-left: 10%;
 	margin-top: 75px;
-	font-size: x-large;
+	font-size: 30px;
+	text-decoration: underline;
 }
 
 #about {
@@ -70,6 +72,28 @@ a:active {
 }
 
 #ab {
+	font-size: smaller;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+#break {
+	background: rgba(122,39,185,.60);
+	margin-top: 75px;
+}
+
+#service h1 {
+	margin-top: 75px;
+	margin-left: 10%;
+	font-size: 30px;
+	text-decoration: underline;
+}
+
+#service {
+	color: white;
+}
+
+#serv {
 	font-size: smaller;
 	margin-left: 15%;
 	margin-right: 15%;

@@ -26,11 +26,20 @@ nav li a {
 	font-size: 12px;
 }
 
-h1 {
+a:hover {
+	color: blueviolet;
+}
+
+a:active {
+	color: blue;
+}
+
+#top h1 {
 	margin-left: 20%;
 	margin-top: 125px;
 	margin-bottom: -7px;
 	color: white;
+	font-size: 350%;
 }
 
 #cap {
@@ -48,4 +57,20 @@ h1 {
 	background: linear-gradient(90deg, rgba(122,39,185,.60) 0%, rgba(99,9,121,.60) 29%, rgba(0,78,255,.60) 100%);
 	margin-top: -75px;
 	background-color: black !important;
+}
+
+#about h1 {
+	margin-left: 10%;
+	margin-top: 75px;
+	font-size: x-large;
+}
+
+#about {
+	color: white;
+}
+
+#ab {
+	font-size: smaller;
+	margin-left: 15%;
+	margin-right: 15%;
 }

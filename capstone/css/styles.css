@@ -78,7 +78,7 @@ a:active {
 }
 
 #break {
-	background: rgba(122,39,185,.60);
+	background: rgba(122,39,185,.30);
 	margin-top: 75px;
 }
 
@@ -97,4 +97,60 @@ a:active {
 	font-size: smaller;
 	margin-left: 15%;
 	margin-right: 15%;
+}
+
+#contact {
+	color: white;
+}
+
+#fname, #lname {
+	min-width: 25%;
+	max-width: 20%;
+	font-style: italic;
+	color: black;
+	border: 10px;
+	border-radius: 5px;
+}
+
+textarea {
+	max-width: 70%;
+	min-width: 70%;
+	min-height: 150px;
+	max-height: 200px;
+	font-style: italic;
+	border-radius: 5px;
+}
+
+#contact {
+	font-size: smaller;
+	margin-left: 15%;
+	margin-right: 15%
+}
+
+#cont {
+	font-size: 30px;
+	text-decoration: underline;
+	margin-left: 10%;
+	color: white;
+}
+
+#submit {
+	min-width: 100px;
+	max-width: 100px;
+	min-height: 25px;
+	max-height: 25px;
+	background-color: rgba(122,39,185,.70); 
+	color: white;
+	border: 10px;
+	border-radius: 10px;
+}
+
+hr {
+	max-width: 65%;
+}
+
+footer {
+	color: white;
+	font-size: x-small;
+	margin-left: 10%;
 }

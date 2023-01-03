@@ -1,6 +1,6 @@
 * {
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-	
+	color:white;
 }
 
 html {
@@ -33,4 +33,29 @@ a:hover {
 
 a:active {
 	color: blue;
+}
+
+#top h1 {
+	margin-left: 20%;
+	margin-top: 142.5px;
+	margin-bottom: -7px;
+	color: white;
+	font-size: 350%;
+}
+
+#cap {
+	margin-left: 20%;
+	margin-bottom: 142.5px;
+	color: white;
+}
+
+#topspace, #botspace{
+	visibility: hidden;
+}
+
+#backimg {
+	background: rgba(122,39,185,.75);
+	background: linear-gradient(90deg, rgba(122,39,185,.60) 0%, rgba(99,9,121,.60) 29%, rgba(0,78,255,.60) 100%);
+	margin-top: -75px;
+	background-color: black !important;
 }

@@ -1,0 +1,36 @@
+* {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	
+}
+
+html {
+	background-color: black;
+}
+
+nav {
+	padding: 0.5%;
+}
+
+nav li{
+    display: inline;
+}
+
+nav li a {
+	color: white;
+    margin-left: -5px;
+	padding-left: 30px;
+	padding-right: 30px;
+	text-decoration: none;
+	background-color: rgba(0,0,0,.60);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 12px;
+}
+
+a:hover {
+	color: blueviolet;
+}
+
+a:active {
+	color: blue;
+}

@@ -1,6 +1,5 @@
 * {
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-	
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 html {
@@ -17,7 +16,7 @@ nav li{
 
 nav li a {
 	color: white;
-    margin-left: -5px;
+    margin-left: -2px;
 	padding-left: 30px;
 	padding-right: 30px;
 	text-decoration: none;
@@ -36,6 +35,7 @@ a:active {
 }
 
 #top h1 {
+	font-family: 'Lucida Sans';
 	margin-left: 20%;
 	margin-top: 182.5px;
 	margin-bottom: -7px;
@@ -44,6 +44,7 @@ a:active {
 }
 
 #cap {
+	font-family: 'Lucida Sans';
 	margin-left: 20%;
 	margin-bottom: 182.5px;
 	color: white;
@@ -54,8 +55,9 @@ a:active {
 }
 
 #backimg {
-	background: rgba(122,39,185,.75);
-	background: linear-gradient(90deg, rgba(122,39,185,.60) 0%, rgba(99,9,121,.60) 29%, rgba(0,78,255,.60) 100%);
+	background-image: url("../images/grade.gif");
+	background-repeat: no-repeat;
+  	background-size: cover;
 	margin-top: -75px;
 	background-color: black !important;
 }
@@ -64,7 +66,6 @@ a:active {
 	margin-left: 10%;
 	margin-top: 75px;
 	font-size: 30px;
-	text-decoration: underline;
 }
 
 #about {
@@ -72,13 +73,14 @@ a:active {
 }
 
 #ab {
-	font-size: smaller;
+	font-size: 14px;
 	margin-left: 15%;
 	margin-right: 15%;
 }
 
 #break {
-	background: rgba(122,39,185,.30);
+	background-image: url("../images/grade.gif");
+	background-size: 300%;
 	margin-top: 75px;
 }
 
@@ -86,7 +88,6 @@ a:active {
 	margin-top: 75px;
 	margin-left: 10%;
 	font-size: 30px;
-	text-decoration: underline;
 }
 
 #service {
@@ -94,7 +95,7 @@ a:active {
 }
 
 #serv {
-	font-size: smaller;
+	font-size: 14px;
 	margin-left: 15%;
 	margin-right: 15%;
 }
@@ -129,7 +130,6 @@ textarea {
 
 #cont {
 	font-size: 30px;
-	text-decoration: underline;
 	margin-left: 10%;
 	color: white;
 }

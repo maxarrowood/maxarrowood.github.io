@@ -1,6 +1,6 @@
 * {
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-	
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	color: white;	
 }
 
 html {
@@ -17,7 +17,7 @@ nav li{
 
 nav li a {
 	color: white;
-    margin-left: -5px;
+    margin-left: -2px;
 	padding-left: 30px;
 	padding-right: 30px;
 	text-decoration: none;
@@ -58,4 +58,21 @@ a:active {
   	background-size: cover;
 	margin-top: -75px;
 	background-color: black !important;
+}
+
+#webtit {
+	margin-left: 10%;
+	margin-top: 75px;
+	font-size: 15px;
+	font-style: italic;
+}
+
+#webdd {
+	font-size: 14px;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+#webdd a {
+	color: blue;
 }

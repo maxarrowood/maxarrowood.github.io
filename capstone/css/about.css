@@ -53,9 +53,15 @@ a:active {
 }
 
 #backimg {
-	background-image: url("../images/grade.gif");
+	background-image: url("../images/cwatsblur.png");
 	background-repeat: no-repeat;
   	background-size: cover;
 	margin-top: -75px;
 	background-color: black !important;
+}
+
+#break {
+	background-image: url("../images/grade.gif");
+	background-size: 300%;
+	margin-top: 75px;
 }

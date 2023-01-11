@@ -77,3 +77,8 @@ a:active {
 	color: blue;
 }
 
+#break {
+	background-image: url("../images/grade.gif");
+	background-size: 300%;
+	margin-top: 75px;
+}

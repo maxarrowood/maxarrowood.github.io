@@ -61,7 +61,46 @@ a:active {
 }
 
 #break {
-	background-image: url("../images/grade.gif");
-	background-size: 300%;
+	background: rgb(255,184,28);
+	background: linear-gradient(90deg, rgba(255,184,28,1) 0%, rgba(24,48,40,1) 100%);
 	margin-top: 75px;
+}
+
+#genh {
+	margin-left: 10%;
+	margin-top: 75px;
+}
+
+#genp {
+	font-size: 16px;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+#eduh {
+	margin-left: 10%;
+	margin-top: 75px;
+}
+
+#edup {
+	font-size: 16px;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+#iframe {
+	margin: 15%;
+	margin-top: 7.5%;
+	margin-bottom: 5%;
+	max-width: 80%;
+	min-width: 60%;
+	max-height: 500px;
+	min-height: 200px;
+	border: 15px;
+	border-color: white;
+	border-radius: 10px;
+}
+
+hr {
+	max-width: 85%;
 }

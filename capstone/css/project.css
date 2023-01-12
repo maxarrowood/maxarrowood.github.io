@@ -82,3 +82,7 @@ a:active {
 	background-size: 300%;
 	margin-top: 75px;
 }
+
+hr {
+	max-width: 85%;
+}

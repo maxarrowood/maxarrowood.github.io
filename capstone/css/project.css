@@ -176,3 +176,25 @@ hr {
   from {opacity: .4}
   to {opacity: 1}
 }
+
+#ptable {
+  align-items: center;
+  color: black;
+}
+
+table, td, th {
+  border: 6px solid black;
+  background-image: url("../images/grade.gif");
+  background-size: 500%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 20px;
+}
+
+th {
+  font-size: large;
+}
+
+td {
+  font-style: italic;
+  font-size: larger;
+}
